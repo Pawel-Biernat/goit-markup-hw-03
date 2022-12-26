@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+/*nagłówek główny*/
+.main-title h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+/*przycisk index*/
+.main-title button {
+  font-weight: 700;
+  cursor: pointer;
+}
+.main-title button:hover,
+.main-title button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.choice-button button {
+  font-weight: 500;
+  cursor: pointer;
+}
+.choice-button button:hover,
+.choice-button button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/*pozostałe tytuły i paragrafy*/
+.text-titles h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.text-titles p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+/*pogrubiona czcionka w napisach pod zdjęciami*/
+.team-member h4 {
+  font-weight: 500;
+  line-height: 1.17;
+}
+.project-name h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+/*stanowiska i odnośniki w napisach pod zdjęciami*/
+.team-member p {
+  line-height: 1.88;
+}
+.project-name p {
+  line-height: 1.17;
+}
+/*linki i ondośniki do podstron*/
+.link-activation a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  font-style: normal;
+  text-decoration: none;
+  color: #757575;
+}
+.link-activation a:hover,
+.link-activation a:focus {
+  color: #2196f3;
+}
+.navigation-links a {
+  font-size: 14px;
+  color: #212121;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.17;
+}
+.navigation-links li :hover,
+.navigation-links li :focus {
+  color: #2196f3;
+}
+/*logo WebStudio*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.38;
+  text-decoration: none;
+}
+.web {
+  color: #2196f3;
+}
+.studio-black {
+  color: #000000;
+}
+.studio-white {
+  color: #ffffff;
+}
+/*stopka */
+.link-footer a {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.postal-adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
